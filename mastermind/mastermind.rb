@@ -31,6 +31,8 @@ class Game
         player = Human.new
       when 2
         player = Computer.new
+      when 3
+        exit  
       end
 
        new(player)
