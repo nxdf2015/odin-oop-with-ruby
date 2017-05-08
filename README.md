@@ -88,7 +88,7 @@ use  stub to simulate input  [loop_spec.rb](https://github.com/nxdf2015/odin-oop
 
 
 ## [Project 2: Mastermind](https://github.com/nxdf2015/odin-oop-with-ruby/tree/master/mastermind)
- ![capture](https://github.com/nxdf2015/odin-oop-with-ruby/blob/master/mastermind/Capture.PNG)
+ [_capture_](https://github.com/nxdf2015/odin-oop-with-ruby/blob/master/mastermind/Capture.PNG)
  - **class Game** [mastermind.rb](https://github.com/nxdf2015/odin-oop-with-ruby/blob/master/mastermind/mastermind.rb)
 ```
    game = Game.create
