@@ -21,9 +21,9 @@ the grid |X|.|.| is represented by an array of cell  (class Cell)
 
 
   **class Grid** [`grid.rb`](https://github.com/nxdf2015/odin-oop-with-ruby/blob/master/tic-tac-toe/grid.rb)
-  create grid with cells
-
- **class Player **
+  create grid with cells  
+  
+**class Player**
 
 
   **class Tictactoe** [`tic_tac_toe.rb`](https://github.com/nxdf2015/odin-oop-with-ruby/blob/master/tic-tac-toe/tic_tac_toe.rb)     
