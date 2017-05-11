@@ -6,7 +6,7 @@ attr_accessor :current_player
    @grid = Grid.new(output,grid,count,current_player)
    @output = output
    @input = input
-   @debug = false
+   @debug = false #true for test
  end
 
 

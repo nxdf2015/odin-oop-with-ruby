@@ -15,12 +15,12 @@ describe ".Matcher" do
 
         it ' grid "XOX","OXO","XXX" ' do
             @game = marker(["XOX","OXO","XXX"])
-           expect(@game.win?).to be true
+           expect(@game).to be_win
         end
 
         it  ' grid "XOX","OXO","OOO" ' do
             @game = marker(["XOX","OXO","OOO"],:O)
-            expect(@game.win?).to be true
+          expect(@game).to be_win
         end
 
       end
@@ -30,7 +30,7 @@ describe ".Matcher" do
 
         it ' grid "XOX","XXX","OXO" ' do
             @game = marker(["XOX","XXX","OXO"])
-           expect(@game.win?).to be true
+           expect(@game).to be_win
         end
 
       end
@@ -39,7 +39,7 @@ describe ".Matcher" do
 
         it ' grid "XOX","XOX","OXX" ' do
             @game = marker(["XOX","XOX","OXX"])
-           expect(@game.win?).to be true
+           expect(@game).to be_win
         end
 
       end
@@ -48,7 +48,7 @@ describe ".Matcher" do
 
         it ' grid "XOX","XOX","OXX" ' do
             @game = marker(["XOX","XOO","OOX"],:O)
-           expect(@game.win?).to be true
+           expect(@game).to be_win
         end
 
       end
@@ -60,7 +60,7 @@ describe ".Matcher" do
 
         it 'grid "XOO","OXO","XOO"' do
             @game = marker(["XOO","OXO","XOO"])
-           expect(@game.win?).to be false
+          expect(@game).not_to be_win
         end
       end
 
@@ -73,7 +73,7 @@ describe ".Matcher" do
     describe "current_player :X" do
       it 'grid "XOO","OXO","XOO"' do
           @game = marker(["XOO","OXO","XOO"])
-         expect(@game.win?).to be false
+         expect(@game).not_to be_win
       end
     end
   end

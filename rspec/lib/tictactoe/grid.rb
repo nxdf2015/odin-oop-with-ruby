@@ -17,7 +17,6 @@ class Grid
 
   def start
     draw
-  #  @output.puts "...,...,..."
   end
 
   def play
@@ -36,7 +35,7 @@ class Grid
 
   def draw
     @draw.draw(@grid)
-  
+
   end
 
 
